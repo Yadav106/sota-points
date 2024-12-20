@@ -1,5 +1,3 @@
-from db import create_tables
-
 from dailies import *
 from screen import Screen
 from short_story import short_story_handler
@@ -21,7 +19,6 @@ def main_screen_handler():
     )
 
 def main():
-    create_tables()
     main_screen_handler()
     # check_screen()
 
